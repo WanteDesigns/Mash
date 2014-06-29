@@ -46,14 +46,14 @@
 		528C8A56196008AD005DAD1E /* Mash-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mash-Prefix.pch"; sourceTree = "<group>"; };
 		528C8A57196008AD005DAD1E /* XYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZAppDelegate.h; sourceTree = "<group>"; };
 		528C8A58196008AD005DAD1E /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
-		528C8A5B196008AD005DAD1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		528C8A5E196008AD005DAD1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		528C8A5B196008AD005DAD1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		528C8A5E196008AD005DAD1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		528C8A60196008AD005DAD1E /* XYZMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZMasterViewController.h; sourceTree = "<group>"; };
 		528C8A61196008AD005DAD1E /* XYZMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZMasterViewController.m; sourceTree = "<group>"; };
 		528C8A63196008AD005DAD1E /* XYZDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZDetailViewController.h; sourceTree = "<group>"; };
 		528C8A64196008AD005DAD1E /* XYZDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZDetailViewController.m; sourceTree = "<group>"; };
-		528C8A66196008AD005DAD1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		528C8A6C196008AD005DAD1E /* MashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		528C8A66196008AD005DAD1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
+		528C8A6C196008AD005DAD1E /* MashTests */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MashTests; sourceTree = BUILT_PRODUCTS_DIR; };
 		528C8A6D196008AD005DAD1E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		528C8A75196008AD005DAD1E /* MashTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MashTests-Info.plist"; sourceTree = "<group>"; };
 		528C8A77196008AD005DAD1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				528C8A45196008AD005DAD1E /* Mash.app */,
-				528C8A6C196008AD005DAD1E /* MashTests.xctest */,
+				528C8A6C196008AD005DAD1E /* MashTests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,7 +195,7 @@
 			);
 			name = MashTests;
 			productName = MashTests;
-			productReference = 528C8A6C196008AD005DAD1E /* MashTests.xctest */;
+			productReference = 528C8A6C196008AD005DAD1E /* MashTests */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -477,6 +477,7 @@
 				528C8A7F196008AD005DAD1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		528C8A80196008AD005DAD1E /* Build configuration list for PBXNativeTarget "MashTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +486,7 @@
 				528C8A82196008AD005DAD1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

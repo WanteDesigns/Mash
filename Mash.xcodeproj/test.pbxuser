@@ -1,0 +1,91 @@
+// !$*UTF8*$!
+{
+	528C8A3D196008AD005DAD1E /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 52FBF28D19600ADF000D73BA /* Mash */;
+		activeTarget = 528C8A44196008AD005DAD1E /* Mash */;
+		codeSenseManager = 52FBF2AA19600AE1000D73BA /* Code sense */;
+		executables = (
+			52FBF28D19600ADF000D73BA /* Mash */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 425726411;
+			PBXWorkspaceStateSaveDate = 425726411;
+		};
+		sourceControlManager = 52FBF2A919600AE1000D73BA /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	528C8A44196008AD005DAD1E /* Mash */ = {
+		activeExec = 0;
+		executables = (
+			52FBF28D19600ADF000D73BA /* Mash */,
+		);
+	};
+	528C8A6B196008AD005DAD1E /* MashTests */ = {
+		activeExec = 0;
+	};
+	52FBF28D19600ADF000D73BA /* Mash */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Mash;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	52FBF2A919600AE1000D73BA /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	52FBF2AA19600AE1000D73BA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
