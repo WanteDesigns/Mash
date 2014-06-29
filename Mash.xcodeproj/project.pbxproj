@@ -23,6 +23,12 @@
 		528C8A70196008AD005DAD1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528C8A4C196008AD005DAD1E /* UIKit.framework */; };
 		528C8A78196008AD005DAD1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 528C8A76196008AD005DAD1E /* InfoPlist.strings */; };
 		528C8A7A196008AD005DAD1E /* MashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 528C8A79196008AD005DAD1E /* MashTests.m */; };
+		528C8A8B1960180B005DAD1E /* build in Resources */ = {isa = PBXBuildFile; fileRef = 528C8A851960180B005DAD1E /* build */; };
+		528C8A8C1960180B005DAD1E /* hooks in Resources */ = {isa = PBXBuildFile; fileRef = 528C8A861960180B005DAD1E /* hooks */; };
+		528C8A8D1960180B005DAD1E /* js in Resources */ = {isa = PBXBuildFile; fileRef = 528C8A871960180B005DAD1E /* js */; };
+		528C8A8E1960180B005DAD1E /* platforms in Resources */ = {isa = PBXBuildFile; fileRef = 528C8A881960180B005DAD1E /* platforms */; };
+		528C8A8F1960180B005DAD1E /* plugins in Resources */ = {isa = PBXBuildFile; fileRef = 528C8A891960180B005DAD1E /* plugins */; };
+		528C8A93196018CD005DAD1E /* www in Resources */ = {isa = PBXBuildFile; fileRef = 528C8A92196018CD005DAD1E /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +64,12 @@
 		528C8A75196008AD005DAD1E /* MashTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MashTests-Info.plist"; sourceTree = "<group>"; };
 		528C8A77196008AD005DAD1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		528C8A79196008AD005DAD1E /* MashTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MashTests.m; sourceTree = "<group>"; };
+		528C8A851960180B005DAD1E /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
+		528C8A861960180B005DAD1E /* hooks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = hooks; sourceTree = "<group>"; };
+		528C8A871960180B005DAD1E /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		528C8A881960180B005DAD1E /* platforms */ = {isa = PBXFileReference; lastKnownFileType = folder; path = platforms; sourceTree = "<group>"; };
+		528C8A891960180B005DAD1E /* plugins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = plugins; sourceTree = "<group>"; };
+		528C8A92196018CD005DAD1E /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +99,12 @@
 		528C8A3C196008AD005DAD1E = {
 			isa = PBXGroup;
 			children = (
+				528C8A92196018CD005DAD1E /* www */,
+				528C8A851960180B005DAD1E /* build */,
+				528C8A861960180B005DAD1E /* hooks */,
+				528C8A871960180B005DAD1E /* js */,
+				528C8A881960180B005DAD1E /* platforms */,
+				528C8A891960180B005DAD1E /* plugins */,
 				528C8A4E196008AD005DAD1E /* Mash */,
 				528C8A73196008AD005DAD1E /* MashTests */,
 				528C8A47196008AD005DAD1E /* Frameworks */,
@@ -237,9 +255,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				528C8A8B1960180B005DAD1E /* build in Resources */,
+				528C8A8E1960180B005DAD1E /* platforms in Resources */,
 				528C8A5F196008AD005DAD1E /* Main_iPad.storyboard in Resources */,
 				528C8A67196008AD005DAD1E /* Images.xcassets in Resources */,
+				528C8A8D1960180B005DAD1E /* js in Resources */,
+				528C8A8C1960180B005DAD1E /* hooks in Resources */,
+				528C8A8F1960180B005DAD1E /* plugins in Resources */,
 				528C8A5C196008AD005DAD1E /* Main_iPhone.storyboard in Resources */,
+				528C8A93196018CD005DAD1E /* www in Resources */,
 				528C8A53196008AD005DAD1E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,7 +492,7 @@
 				528C8A7C196008AD005DAD1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		528C8A7D196008AD005DAD1E /* Build configuration list for PBXNativeTarget "Mash" */ = {
 			isa = XCConfigurationList;
@@ -477,7 +501,7 @@
 				528C8A7F196008AD005DAD1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		528C8A80196008AD005DAD1E /* Build configuration list for PBXNativeTarget "MashTests" */ = {
 			isa = XCConfigurationList;
@@ -486,7 +510,7 @@
 				528C8A82196008AD005DAD1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
